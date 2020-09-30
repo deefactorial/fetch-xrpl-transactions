@@ -31,7 +31,7 @@
     "start": "npm run start:server",
     "start:server": "npm run build:server && run-p watch:server dev:server",
     "build:server": "tsc -p src/",
-    "dev:server": "node-dev --respawn dist/index.js",
+    "dev:server": "node-dev dist/index.js",
     "watch:server": "tsc -p src/ -w"
   },
   "devDependencies": {
